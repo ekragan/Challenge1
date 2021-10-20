@@ -26,7 +26,7 @@ provider "kubernetes" {
 resource "google_compute_address" "static_ip" {
   name = "static-ip-address"
   region = "us-central1"
-  project = "dev-sandbox"
+  project = "dev-sandbox2"
 }
 
 
