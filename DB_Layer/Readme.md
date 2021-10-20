@@ -27,18 +27,18 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_mysite_static_ip"></a> [mysite\_static\_ip](#input\_mysite\_static\_ip) | n/a | `any` | n/a | yes |
-| <a name="input_project"></a> [project](#input\_project) | n/a | `any` | n/a | yes |
-| <a name="input_region"></a> [region](#input\_region) | n/a | `any` | n/a | yes |
-| <a name="input_user_password"></a> [user\_password](#input\_user\_password) | n/a | `any` | n/a | yes |
+| <a name="input_mysite_static_ip"></a> [mysite\_static\_ip](#input\_mysite\_static\_ip) | Static IP address | `any` | n/a | yes |
+| <a name="input_project"></a> [project](#input\_project) | Project where the terraform resource will be created | `any` | n/a | yes |
+| <a name="input_region"></a> [region](#input\_region) | Region where tfm resource will be created | `any` | n/a | yes |
+| <a name="input_user_password"></a> [user\_password](#input\_user\_password) | User password for DB | `any` | n/a | yes |
 | <a name="input_wp_vpc_id"></a> [wp\_vpc\_id](#input\_wp\_vpc\_id) | kubernetes cluster - application server - testing 1 wordpress | `any` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| <a name="output_dbname"></a> [dbname](#output\_dbname) | n/a |
-| <a name="output_pass"></a> [pass](#output\_pass) | n/a |
-| <a name="output_pubip"></a> [pubip](#output\_pubip) | n/a |
-| <a name="output_sql_vpc_id"></a> [sql\_vpc\_id](#output\_sql\_vpc\_id) | n/a |
-| <a name="output_uname"></a> [uname](#output\_uname) | n/a |
+| <a name="output_dbname"></a> [dbname](#output\_dbname) | Database name |
+| <a name="output_pass"></a> [pass](#output\_pass) | Password |
+| <a name="output_pubip"></a> [pubip](#output\_pubip) | Public IP |
+| <a name="output_sql_vpc_id"></a> [sql\_vpc\_id](#output\_sql\_vpc\_id) | VPC ID where cloudsql is created |
+| <a name="output_uname"></a> [uname](#output\_uname) | Name |
